@@ -1,0 +1,24 @@
+{
+  "name": "y-server-plugin-nuxt",
+  "version": "0.0.1",
+  "author": "SmadeyZhang",
+  "license": "MIT",
+  "description": "y-server nuxt plugin",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yued-fe/y-server-plugin-nuxt.git"
+  },
+  "scripts": {
+    "test": "y-server --config ./test/y-server.config.js --hot"
+  },
+  "dependencies": {
+    "nuxt": "^1.0.0-rc11"
+  },
+  "devDependencies": {
+    "y-server": "~0.0.5"
+  }
+}
