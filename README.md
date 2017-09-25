@@ -11,8 +11,6 @@ npm install y-server-plugin-nuxt
 ## Usage
 
 ```javascript
-const path = require('path');
-
 const yServer = require('y-server');
 const nuxtPlugin = require('y-server-plugin-nuxt');
 
